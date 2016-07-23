@@ -341,10 +341,7 @@ namespace SyntaxChecker
                 {
 
                     // check last word /character of sentence before dot
-                    if (Array.IndexOf(charPredef, charArray[index - 1]) > -1)
-                    {
-
-                    }
+                    
                     if (Array.IndexOf(charDigits, charArray[index - 1]) > -1)
                     {
                         Result.Append(c.ToString());
